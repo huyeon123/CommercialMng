@@ -1,0 +1,12 @@
+spring:
+  batch:
+    job:
+      names: ${job.name:NONE}
+  jpa:
+    defer-datasource-initialization: true #SpingBoot 2.5 ???? H2 DB? ??? ? ??
+
+  datasource:
+    driver-class-name: org.h2.Driver
+#  sql:
+#    init:
+#      data-locations: classpath:person.sql

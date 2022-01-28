@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_batch?serverTimezone=Asia/Seoul&characterEncoding=UTF-8&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: tkfkdg7!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  batch:
+    jdbc:
+      initialize-schema: never
